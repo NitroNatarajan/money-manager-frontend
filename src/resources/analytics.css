@@ -1,0 +1,52 @@
+.transactions-count,.transactions-turnover{
+    box-shadow: 0 0 2px 3px rgb(243, 240, 240);
+    padding: 15px;
+    border-radius: 10px;
+    color:grey !important;
+    margin-top:25px;
+    overflow-x: auto;
+}
+.income-category-analysis h3,.expense-category h3{
+    color:grey !important;
+}
+.analytics h4{
+    font-size: 25px;
+}
+.expense-category{
+    text-align: center;
+}
+.analytics h5{
+    font-size: 20px;
+}
+.progress-bars{
+gap:3px;
+}
+h5{
+    color:grey !important;
+}
+.category-analysis{
+    margin: 20px auto;
+}
+
+@media screen and (max-width:1150px){
+    .analytics {
+        flex-direction:column;
+    }
+    .transactions-count,.transactions-turnover{
+        width:55vw;
+    }
+    .category-analysis,.expense-category{
+        flex-direction: column;
+        width:70vw;
+    }
+}
+@media screen and (max-width:1000px){
+    .category-analysis,.expense-category{
+        flex-direction: column;
+        width:80vw;
+        margin:20px auto;
+    }
+    .transactions-count,.transactions-turnover{
+        width:85vw;
+    }
+}

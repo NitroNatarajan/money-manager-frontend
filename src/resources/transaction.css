@@ -1,0 +1,45 @@
+
+.filter{
+    box-shadow: 0 0 3px grey;
+    padding:10px 20px;
+    border-radius: 5px;
+}
+
+.table-analytics{
+    margin-top: 10px;
+}
+.frequency-filter {
+    margin-right: 20px;
+}
+.type-filter {
+    margin-left: 20px;
+    width:100px
+}
+
+.view-switch{
+    padding:10px 15px;
+    background-color: rgb(241, 237, 237);
+    margin:10px
+}
+.anticon svg{
+    font-size: 25px;
+}
+
+.active-icon {
+    color:black;
+    box-shadow:0 0 3px 2px rgb(145, 140, 140);
+    border:none;
+    padding:5px 10px;
+}
+.inactive-icon {
+    color:grey;
+}
+.ant-picker-range{
+    border:2px solid rgb(75, 71, 71) !important;
+}
+
+@media screen and (max-width:600px){
+  .filter {
+    overflow-x: scroll;
+  }
+}

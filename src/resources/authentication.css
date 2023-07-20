@@ -1,0 +1,42 @@
+
+.register{
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to left, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
+}
+.lottie{
+    width:75%;
+    height:70%;
+}
+
+.register input{
+    background-color:#b8cbb8;
+    border:none;
+}
+input:focus{
+    outline: none;
+    box-shadow: none;
+    background-color:#fbfcfb;
+}
+
+a{
+    color: rgb(15, 15, 15);
+    font-size: 16px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 600;
+}
+a:hover{
+    color: rgba(15, 15, 15, 0.596);
+}
+
+label{
+  font-size: 16px !important;
+}
+.auth-title{
+    text-align: center;
+    font-size: 20px;
+    color: #0c0b0b;
+}
